@@ -16,7 +16,20 @@ function AboutHero() {
             embracing challenges. Join me in exploring the vivid tapestry of
             experiences that shape my unique narrative."
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <p className="py-6">
+            "As a React.js Frontend Developer, I craft immersive digital
+            experiences that seamlessly blend creativity with cutting-edge
+            technology. With a passion for clean, efficient code and an eye for
+            design, I bring ideas to life, shaping the future of web
+            development. Let's build extraordinary user interfaces together,
+            where innovation meets seamless functionality, and every line of
+            code tells a compelling story."
+          </p>
+          <ul className="mb-8">
+            <li>Name: Sumedh Hiwrale</li>
+            <li>Email: sumedh.sph@gmail.com</li>
+          </ul>
+          <button className="btn btn-primary">Download CV</button>
         </div>
       </div>
     </div>

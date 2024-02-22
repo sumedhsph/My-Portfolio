@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import HeroPov from './HeroPov'
 import About from './About'
+import Skills from './Skills'
 
 function HomeLayout() {
   return (
@@ -9,6 +10,7 @@ function HomeLayout() {
       <Navbar/>
       <HeroPov/>
       <About/>
+      <Skills/>
     </main>
   )
 }

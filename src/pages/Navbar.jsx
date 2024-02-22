@@ -1,13 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { nanoid } from "nanoid";
 import { useWindowScroll } from "react-use";
+import {links} from "../data.jsx";
 
-const links = [
-  { id: nanoid(), href: "#home", text: "home" },
-  { id: nanoid(), href: "#about", text: "about" },
-  { id: nanoid(), href: "#skills", text: "resume" },
-  { id: nanoid(), href: "#projects", text: "projects" },
-];
 const themes = {
   light: "light",
   halloween: "halloween",

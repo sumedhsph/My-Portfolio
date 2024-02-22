@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         ubuntu: ["Ubuntu", , 'sans-serif'],
       },
+      backgroundImage:{
+        'skillsBg':"url('/assets/skills_bg.jpg')"
+      }
     },
   },
   plugins: [require("daisyui")],
