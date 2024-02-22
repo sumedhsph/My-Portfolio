@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import HeroPov from './HeroPov'
 import About from './About'
 import Skills from './Skills'
+import Projects from './Projects'
 
 function HomeLayout() {
   return (
@@ -11,6 +12,7 @@ function HomeLayout() {
       <HeroPov/>
       <About/>
       <Skills/>
+      <Projects/>
     </main>
   )
 }

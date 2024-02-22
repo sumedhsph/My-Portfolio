@@ -7,13 +7,13 @@ import Container from "../components/Container";
 
 function Skills() {
   return (
-    <section id="skills">
+    <section id="skills" name="skills">
       <Parallax
         blur={1}
         bgImage={parallaxBgImage}
         bgImageAlt="Man watching starry sky"
         strength={200}
-        className="py-16"
+         
       >
         <Container>
           <h1 className="text-5xl font-bold text-center mb-16 text-primary">

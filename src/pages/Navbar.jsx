@@ -26,7 +26,7 @@ function Navbar() {
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
 
-    //scroll
+    //add bg to navbar onscroll
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       // You can adjust the threshold as needed

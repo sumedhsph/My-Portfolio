@@ -4,7 +4,7 @@ import Container from "../components/Container";
 
 function About() {
   return (
-    <section id="about">
+    <section id="about" name="about">
       <Container>
         <AboutHero />
       </Container>
