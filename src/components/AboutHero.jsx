@@ -1,4 +1,6 @@
 import React from "react";
+import cv from "../assets/CV_Feb24.pdf"
+
 
 function AboutHero() {
   return (
@@ -29,7 +31,7 @@ function AboutHero() {
             <li>Name: Sumedh Hiwrale</li>
             <li>Email: sumedh.sph@gmail.com</li>
           </ul>
-          <button className="btn btn-primary">Download CV</button>
+          <a href={cv} target="_blank" className="btn btn-primary">Download CV</a>
         </div>
       </div>
     </div>
