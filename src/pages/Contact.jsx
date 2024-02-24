@@ -101,7 +101,7 @@ function Contact() {
           Contact me
         </h2>
         <ToastContainer />
-        <div className="grid sm:grid-cols-2 gap-6 content-center	">
+        <div className="grid sm:grid-cols-2 gap-6 content-center">
           <div className="flex justify-center">
             <form onSubmit={handleSubmit}>
               <div className="form-control mb-4">
@@ -147,7 +147,7 @@ function Contact() {
               </div>
             </form>
           </div>
-          <div>
+          <div className="hidden sm:block">
             <img src={contactImg} alt="Contact" className="max-w-md" />
           </div>
         </div>
