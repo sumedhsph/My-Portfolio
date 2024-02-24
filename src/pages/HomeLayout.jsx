@@ -4,6 +4,7 @@ import HeroPov from './HeroPov'
 import About from './About'
 import Skills from './Skills'
 import Projects from './Projects'
+import Contact from './Contact'
 
 function HomeLayout() {
   return (
@@ -13,6 +14,7 @@ function HomeLayout() {
       <About/>
       <Skills/>
       <Projects/>
+      <Contact/>
     </main>
   )
 }

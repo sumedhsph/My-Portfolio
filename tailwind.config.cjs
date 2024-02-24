@@ -7,7 +7,8 @@ export default {
         ubuntu: ["Ubuntu", , 'sans-serif'],
       },
       backgroundImage:{
-        'skillsBg':"url('/assets/skills_bg.jpg')"
+        'skillsBg':"url('/assets/skills_bg.jpg')",
+        'contactBg':"url('/assets/globe.jpg')"
       }
     },
   },
