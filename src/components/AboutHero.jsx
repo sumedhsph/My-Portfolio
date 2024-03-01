@@ -1,13 +1,12 @@
 import React from "react";
-import cv from "../assets/CV_Feb24.pdf"
-
-
+import cv from "../assets/CV_Feb24.pdf";
+import photo from "../assets/photo.jpg"
 function AboutHero() {
   return (
     <div className="hero min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
         <img
-          src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
+          src={photo}
           className="max-w-sm rounded-lg shadow-2xl"
         />
         <div>
@@ -31,7 +30,9 @@ function AboutHero() {
             <li>Name: Sumedh Hiwrale</li>
             <li>Email: sumedh.sph@gmail.com</li>
           </ul>
-          <a href={cv} target="_blank" className="btn btn-primary">Download CV</a>
+          <a href={cv} target="_blank" className="btn btn-primary">
+            Download CV
+          </a>
         </div>
       </div>
     </div>
