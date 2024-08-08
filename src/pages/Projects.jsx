@@ -7,7 +7,7 @@ function Projects() {
   const uniqueCategories = ["all", ...new Set(projects.map((i) => i.category))];
 
   const [projectItems, setProjectItems] = useState(projects);
-  const [categories, setCategories] = useState(uniqueCategories);
+  // const [categories, setCategories] = useState(uniqueCategories);
 
   //filter project items
   const filteredItems = (category) => {

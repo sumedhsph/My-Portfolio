@@ -5,7 +5,6 @@ import {
   FaReact,
   FaCss3Alt,
   FaBootstrap,
-  FaGithub,
 } from "react-icons/fa";
 import { SiRedux } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
@@ -21,6 +20,7 @@ import mystore from "./assets/mystore.webp";
 import purplekaddu from "./assets/purplekaddu.webp";
 import whitedwarf from "./assets/whitedwarf.webp";
 import zigmapaints from "./assets/zigmapaints.webp";
+import goindigo from './assets/goindigo.png';
 
 export const links = [
   { id: nanoid(), href: "#home", text: "home" },
@@ -92,6 +92,7 @@ export const skills = [
     icon: <SiAppwrite className="h-16 w-16 text-emerald-500" />,
     text: "text",
   },
+ 
 ];
 
 export const projects = [
@@ -162,4 +163,12 @@ export const projects = [
     url: "https://mystore-alpha.vercel.app",
     text: "An e-commerce dummy app made with daisy UI and tailwind css. Used free api for backend.",
   },
+  {
+    id: nanoid(),
+    category: "react",
+    img: goindigo,
+    title: "goindigo",
+    url:'https://goindigo.in',
+    text: 'Worked in Micro-frontend: Recommeded Seats and Login module for Adobe indigo project.'
+  } 
 ];

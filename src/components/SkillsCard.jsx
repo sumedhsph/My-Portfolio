@@ -1,6 +1,6 @@
 import React from "react";
 
-function SkillsCard({title, icon, text}) {
+function SkillsCard({title, icon}) {
   return (
     <div className="card w-96">
       <div className="text-center flex justify-center">
