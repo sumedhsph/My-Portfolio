@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../assets/CV_Feb24.pdf";
+import cv from "../assets/sumedh_resume_Apr25.docx";
 import photo from "../assets/photo.jpg"
 function AboutHero() {
   return (
@@ -12,19 +12,19 @@ function AboutHero() {
         <div>
           <h1 className="text-5xl font-bold">About me</h1>
           <p className="py-6">
-            "With a heart fueled by curiosity and a spirit thriving on
-            creativity, I embark on life's journey, weaving stories and
+            &ldquo;With a heart fueled by curiosity and a spirit thriving on
+            creativity, I embark on life&apos;s journey, weaving stories and
             embracing challenges. Join me in exploring the vivid tapestry of
-            experiences that shape my unique narrative."
+            experiences that shape my unique narrative.&rdquo;
           </p>
           <p className="py-6">
-            "As a React.js Frontend Developer, I craft immersive digital
+          &rdquo;As a React.js Frontend Developer, I craft immersive digital
             experiences that seamlessly blend creativity with cutting-edge
             technology. With a passion for clean, efficient code and an eye for
             design, I bring ideas to life, shaping the future of web
-            development. Let's build extraordinary user interfaces together,
+            development. Let&rdquo;s build extraordinary user interfaces together,
             where innovation meets seamless functionality, and every line of
-            code tells a compelling story."
+            code tells a compelling story.&rdquo;
           </p>
           <ul className="mb-8">
             <li>Name: Sumedh Hiwrale</li>
